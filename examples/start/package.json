@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@uio/package-b": "../packages/package-b"
+    "@uio/package-b": "file:../../packages/package-b",
+    "uio-wasm-demo": "file:../../crates/demo/pkg"
   },
   "devDependencies": {
-    "vite": "^5.3.4"
+    "vite": "^5.3.4",
+    "vite-plugin-wasm": "^3.3.0"
   }
 }

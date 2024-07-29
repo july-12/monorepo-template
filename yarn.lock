@@ -131,13 +131,13 @@
   dependencies:
     "undici-types" "~6.11.1"
 
-"@uio/package-a@*", "@uio/package-a@file:/Users/tank/test/rust-demos/wasm/by-chatpgt/multirepo/packages/package-a":
+"@uio/package-a@file:/Users/tank/test/rust-demos/wasm/by-chatpgt/multirepo/packages/package-a":
   "resolved" "file:packages/package-a"
-  "version" "0.0.0"
+  "version" "0.0.1"
 
 "@uio/package-b@file:/Users/tank/test/rust-demos/wasm/by-chatpgt/multirepo/packages/package-b":
   "resolved" "file:packages/package-b"
-  "version" "0.0.0"
+  "version" "0.0.1"
   dependencies:
     "@uio/package-a" "*"
 

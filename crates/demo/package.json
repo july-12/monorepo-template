@@ -1,0 +1,9 @@
+{
+    "name": "uio-wasm-demo",
+    "private": true,
+    "version": "0.1.0",
+    "scripts": {
+      "dev": "cargo watch -i .gitignore -i \"pkg/*\" -s \"wasm-pack build --target web\""
+    }
+  }
+  
