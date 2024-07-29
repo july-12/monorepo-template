@@ -1,5 +1,13 @@
 ## monorepo template
 
+### require
+
+- [rust / cargo](https://www.rust-lang.org/learn/get-started)
+
+- ```wasm-pack: cargo install wasm-pack```
+
+- node@20
+
 ### develop
 
 ```
