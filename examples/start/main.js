@@ -1,31 +1,24 @@
-import './style.css'
-import { Bpp } from '@uio/package-b'
+import "./style.css";
+import { Bpp } from "@uio/package-b";
+import init, { greet } from "uio-wasm-demo";
 
-
-// import { Bpp} from '@uio/package-b'
-import init, { greet } from "uio-wasm-demo"
-
-await init()
-function run() {
-  console.log('start')
-  // init().then(() => {
-  // console.log('done')
-
-  // console.log( greet())
-  // })
-  console.log( greet())
-
+function testWasm() {
+  init().then(() => {
+    console.log("done");
+    console.log(greet());
+  });
 }
 
-run()
-const ia = new Bpp()
+function testLibrary() {
+  const bpp = new Bpp();
+  console.log(bpp.app.name);
+}
 
-console.log(ia.app.name)
+testWasm();
+testLibrary();
 
-
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div>
     <h1>Hello WASM!</h1>
   </div>
-`
-
+`;
