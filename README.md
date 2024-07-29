@@ -1,5 +1,19 @@
 ## monorepo template
 
+### develop
+
+```
+    yarn
+```
+
+```
+    cd crates/demo && npm run dev
+```
+
+```
+    cd examples/start && npm install && npm run dev
+```
+
 ### references
 
 - [dev](https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma)
