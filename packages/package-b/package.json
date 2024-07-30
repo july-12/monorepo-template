@@ -19,6 +19,5 @@
     "vite-plugin-dts": "^4.0.0-beta.1"
   },
   "dependencies": {
-    "@uio/package-a": "*"
   }
 }

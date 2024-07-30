@@ -1,4 +1,6 @@
+
 export { foo, Status } from './foo'
+export const bb = "bb"
 export class App  {
     name: string;
     // foo: Status;
